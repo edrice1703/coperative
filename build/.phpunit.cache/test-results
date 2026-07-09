@@ -1,0 +1,1 @@
+{"version":2,"defects":{"UtilisateurModelTest::testHashPasswordCallbackHashesPlainTextPassword":7,"UtilisateurControllerTest::testInscriptionUtilisateur":8,"UtilisateurControllerTest::testConnexionUtilisateur":8},"times":{"UtilisateurModelTest::testHashPasswordCallbackHashesPlainTextPassword":0.174,"UtilisateurModelTest::testHashPasswordCallbackSkipsAlreadyHashedPassword":0.081}}

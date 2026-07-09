@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+
+# Composer dependencies
+/vendor/
+
+# CodeIgniter writable directories
+/writable/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Node modules
+node_modules/

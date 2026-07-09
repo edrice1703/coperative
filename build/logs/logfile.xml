@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="4" assertions="4" errors="2" failures="0" skipped="0" time="0.269055">
+    <testsuite name="UtilisateurModelTest" file="/var/www/html/projet_codeigniter/tests/unit/Models/UtilisateurModelTest.php" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.269055">
+      <testcase name="testHashPasswordCallbackHashesPlainTextPassword" file="/var/www/html/projet_codeigniter/tests/unit/Models/UtilisateurModelTest.php" line="8" class="UtilisateurModelTest" classname="UtilisateurModelTest" assertions="3" time="0.187627"/>
+      <testcase name="testHashPasswordCallbackSkipsAlreadyHashedPassword" file="/var/www/html/projet_codeigniter/tests/unit/Models/UtilisateurModelTest.php" line="27" class="UtilisateurModelTest" classname="UtilisateurModelTest" assertions="1" time="0.081428"/>
+    </testsuite>
+    <testsuite name="UtilisateurControllerTest" file="/var/www/html/projet_codeigniter/tests/unit/Controllers/UtilisateurControllerTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.000000">
+      <testcase name="testInscriptionUtilisateur" file="/var/www/html/projet_codeigniter/tests/unit/Controllers/UtilisateurControllerTest.php" line="30" class="UtilisateurControllerTest" classname="UtilisateurControllerTest" assertions="0" time="0.000000">
+        <error type="CodeIgniter\Database\Exceptions\DatabaseException">UtilisateurControllerTest::testInscriptionUtilisateur
+CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+
+/var/www/html/projet_codeigniter/system/Database/BaseConnection.php:465
+/var/www/html/projet_codeigniter/system/Database/SQLite3/Connection.php:74
+/var/www/html/projet_codeigniter/system/Database/Database.php:72
+/var/www/html/projet_codeigniter/system/Database/Config.php:109
+/var/www/html/projet_codeigniter/system/Database/Seeder.php:98
+/var/www/html/projet_codeigniter/system/Database/Config.php:137
+/var/www/html/projet_codeigniter/system/Test/DatabaseTestTrait.php:96
+/var/www/html/projet_codeigniter/system/Test/DatabaseTestTrait.php:59
+/var/www/html/projet_codeigniter/system/Test/CIUnitTestCase.php:251
+/var/www/html/projet_codeigniter/tests/unit/Controllers/UtilisateurControllerTest.php:18</error>
+      </testcase>
+      <testcase name="testConnexionUtilisateur" file="/var/www/html/projet_codeigniter/tests/unit/Controllers/UtilisateurControllerTest.php" line="49" class="UtilisateurControllerTest" classname="UtilisateurControllerTest" assertions="0" time="0.000000">
+        <error type="CodeIgniter\Database\Exceptions\DatabaseException">UtilisateurControllerTest::testConnexionUtilisateur
+CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+
+/var/www/html/projet_codeigniter/system/Database/BaseConnection.php:465
+/var/www/html/projet_codeigniter/system/Database/SQLite3/Connection.php:74
+/var/www/html/projet_codeigniter/system/Database/Database.php:72
+/var/www/html/projet_codeigniter/system/Database/Config.php:109
+/var/www/html/projet_codeigniter/system/Database/Seeder.php:98
+/var/www/html/projet_codeigniter/system/Database/Config.php:137
+/var/www/html/projet_codeigniter/system/Test/DatabaseTestTrait.php:96
+/var/www/html/projet_codeigniter/system/Test/DatabaseTestTrait.php:59
+/var/www/html/projet_codeigniter/system/Test/CIUnitTestCase.php:251
+/var/www/html/projet_codeigniter/tests/unit/Controllers/UtilisateurControllerTest.php:18</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Utilisateur Controller
+ [ ] Inscription utilisateur
+ [ ] Connexion utilisateur
+
+Utilisateur Model
+ [x] Hash password callback hashes plain text password
+ [x] Hash password callback skips already hashed password
+
